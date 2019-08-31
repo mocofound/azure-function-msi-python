@@ -10,7 +10,7 @@ These are the services needed:
 Steps to configure the solution:
 1. Define one secret on Azure Key Vault (e.g. mySecret=SupreSecretValue)
 1. Define a Policy on Azure Key Vault that allows the Managed Identity to Get Secrets
-1. Configure the Azure Function to use the previously created Managed Identity
+1. Configure the Azure Function to use the previously created Managed Identity (as User Assigned Identity)
 1. Register the Key Vault URL as an Application Setting in the Azure Function
 1. Register the Application Id of the Managed Identity as an Application Setting in the Azure Function
 
